@@ -1,0 +1,7 @@
+# main.py
+
+import sample
+
+if __name__ == "__main__":
+    folder_path = input("フォルダのパスを入力してください: ")
+    sample.list_files_in_folder(folder_path)

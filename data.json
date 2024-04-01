@@ -1,0 +1,22 @@
+{
+"$schema":"schemas/IntegratedServicesRegionPolicySet.Schema.1.0.0.json",
+"version":"1.0","policies":[{
+"$comment": "Edge is uninstallable.",
+"guid": "{1bca278a-5d11-4acf-ad2f-f9ab6d7f93a6}",
+"defaultState": "disabled",
+"conditions":"",
+"region":{
+"enabled":["AT", "BE", "BG", "CH", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GF", "GP", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MT", "MQ", "NL", "NO", "PL", "PT", "RE", "RO", "SE", "SI", "SK", "YT"]
+}
+},
+{
+"$comment": "User can disable web search.",
+"guid": "{6002ce31-b807-4f82-820c-2b92e716ab76}",
+"defaultState": "disabled",
+"conditions":"",
+"region":{
+ "enabled": ["AT", "BE", "BG", "CH", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GF", "GP", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MT", "MQ", "NL", "NO", "PL", "PT", "RE", "RO", "SE", "SI", "SK", "YT"]
+}
+}
+]
+}
